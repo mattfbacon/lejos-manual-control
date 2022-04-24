@@ -53,7 +53,7 @@ class RobotImpl {
 		this.psp = psp;
 		this.psp.setDigitalMode(true);
 		this.leftMotor = new MotorWrapper(Motor.A, MotorWrapper.PSPJoystickAxis.LeftY, -5);
-		this.leftMotor = new MotorWrapper(Motor.B, MotorWrapper.PSPJoystickAxis.RightY, -5);
+		this.rightMotor = new MotorWrapper(Motor.B, MotorWrapper.PSPJoystickAxis.RightY, -5);
 	}
 
 	public run() {
